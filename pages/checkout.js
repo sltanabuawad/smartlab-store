@@ -1,15 +1,8 @@
-export default function Checkout() {
+export default function CheckoutPage() {
   return (
-    <div style={{padding:"40px"}}>
-      <h1>Test Payment</h1>
-
-      <form>
-        <input placeholder="Full Name" /><br/><br/>
-        <input placeholder="Card Number" /><br/><br/>
-        <input placeholder="Expiry Date" /><br/><br/>
-
-        <button>Pay (Test)</button>
-      </form>
+    <div style={{ padding: "40px" }}>
+      <h1>Checkout</h1>
+      <p>SmartLab Checkout Page</p>
     </div>
   );
 }
